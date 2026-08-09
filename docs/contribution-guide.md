@@ -43,22 +43,37 @@ Keep the information clear, accurate, and easy to follow.
 
 When adding a new recipe, copy the recipe template and replace the placeholder content with the actual recipe information.
 
-## 3. Image Naming Convention
+## 3. Image Location and Naming Convention
 
-Recipe images should use the same name as the recipe whenever possible.
+All recipe images must be stored directly in the repository-level `images/` directory.
 
-Use:
+Valid:
 
 ```text
-lowercase-with-hyphens.jpg
+images/
+└── cold-coffee.jpg
 ```
 
-Examples:
+Invalid:
 
 ```text
-cold-coffee.jpg
-mango-lassi.jpg
-chocolate-cake.jpg
+recipes/beverages/cold-coffee.jpg
+recipes/beverages/images/cold-coffee.jpg
+recipes/images/cold-coffee.jpg
+```
+
+The image filename must match the recipe filename, excluding the `.md` extension. Lowercase letters, numbers, and hyphens are expected.
+
+For:
+
+```text
+recipes/beverages/cold-coffee.md
+```
+
+use:
+
+```text
+images/cold-coffee.jpg
 ```
 
 Avoid:
@@ -66,18 +81,33 @@ Avoid:
 ```text
 Cold Coffee Final Image.jpg
 IMG_2026.jpg
-recipe123.png
+cold-coffee-final.jpg
 ```
 
-Images should be placed in the appropriate image directory and referenced using a relative Markdown path.
-
-Example:
+The recipe should reference the repository-level image with a relative Markdown path:
 
 ```md
-![Cold Coffee](../images/cold-coffee.jpg)
+![Cold Coffee](../../images/cold-coffee.jpg)
 ```
 
-## 4. Branch Naming Convention
+Supported image formats are `.jpg`, `.jpeg`, `.png`, `.webp`, and `.gif`.
+
+## 4. Automated Contribution Checks
+
+Pull Requests are automatically checked for the repository conventions described in this guide.
+
+The checker enforces:
+
+* Recipe files are inside `recipes/appetizers/`, `recipes/mains/`, `recipes/desserts/`, or `recipes/beverages/`.
+* Recipe filenames are lowercase, use hyphens, and end in `.md`.
+* Recipe images are stored only in `images/`.
+* An image filename matches its recipe filename.
+* Recipes contain the required sections: Title, Description, Ingredients, Preparation, Cooking Time, Difficulty, Servings, Image, and Author.
+* Unsupported non-Markdown files are not added inside recipe category directories.
+
+The check runs automatically on Pull Requests. A failed check must be fixed before the contribution can be considered ready for merge.
+
+## 5. Branch Naming Convention
 
 Do not make changes directly on the `main` branch.
 
@@ -116,7 +146,7 @@ update/<change-name>
 
 Branch names should be lowercase and use hyphens instead of spaces.
 
-## 5. Commit Message Convention
+## 6. Commit Message Convention
 
 Write short, clear, and descriptive commit messages.
 
@@ -156,7 +186,7 @@ asdf
 
 Future contributors should be able to understand what a commit did without performing archaeological research.
 
-## 6. Pull Request Requirements
+## 7. Pull Request Requirements
 
 All contributions should be submitted through a Pull Request.
 
@@ -208,7 +238,7 @@ Example:
 - [x] No unrelated changes included
 ```
 
-## 7. Review and Merge
+## 8. Review and Merge
 
 After opening the Pull Request:
 
@@ -219,7 +249,7 @@ After opening the Pull Request:
 
 Do not merge your own Pull Request unless the repository's contribution policy explicitly allows it.
 
-## Quick Contribution Workflow
+## 9. Quick Contribution Workflow
 
 ```bash
 git checkout main
@@ -237,7 +267,7 @@ git push -u origin recipe/<recipe-name>
 
 Then open a Pull Request on GitHub and wait for review.
 
-## Contribution Checklist
+## 10. Contribution Checklist
 
 Before submitting your Pull Request, verify:
 
