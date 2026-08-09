@@ -1,3 +1,15 @@
+---
+title: Paneer Butter Masala
+category: mains
+difficulty: medium
+time: 40
+servings: 4
+author: Nipun
+tags:
+  - paneer
+  - curry
+  - north-indian
+---
 # Paneer Butter Masala
 
 A rich, creamy, and mildly spiced North Indian curry made with paneer (Indian cottage cheese), tomatoes, cashews, and butter.

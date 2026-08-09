@@ -1,3 +1,15 @@
+---
+title: Mango Lassi
+category: beverages
+difficulty: easy
+time: 5
+servings: 2
+author: Durvesh
+tags:
+  - mango
+  - lassi
+  - beverage
+---
 # Mango Lassi Recipe
 
 ![Mango Lassi](../../images/mango-lassi.jpg)
