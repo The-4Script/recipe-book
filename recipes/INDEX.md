@@ -1,5 +1,13 @@
 # Recipe Index
 
+## Ingredients
+
+This is an index file. See individual recipes for ingredients.
+
+## Instructions
+
+This is an index file. See individual recipes for preparation instructions.
+
 ## Appetizers
 
 | Recipe | Difficulty | Time | Servings |
