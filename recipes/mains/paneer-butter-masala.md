@@ -1,6 +1,8 @@
 # Paneer Butter Masala
 
 A rich, creamy, and mildly spiced North Indian curry made with paneer (Indian cottage cheese), tomatoes, cashews, and butter.
+![Paneer Butter Masala](../../images/paneer-butter-masala.jpg)
+
 
 ---
 
