@@ -1,0 +1,28 @@
+name: Contribution Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  contribution-check:
+    name: Validate contribution rules
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check changed contributions
+        run: |
+          python scripts/check-contributions.py             --base "${{ github.event.pull_request.base.sha }}"             --head "${{ github.event.pull_request.head.sha }}"
