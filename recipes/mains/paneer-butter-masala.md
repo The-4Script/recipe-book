@@ -1,3 +1,15 @@
+---
+title: Paneer Butter Masala
+category: mains
+difficulty: medium
+time: 40
+servings: 4
+author: Nipun
+tags:
+  - paneer
+  - curry
+  - north-indian
+---
 # Paneer Butter Masala
 
 ## Description

@@ -1,3 +1,15 @@
+---
+title: Spring Rolls
+category: appetizers
+difficulty: medium
+time: 35
+servings: 4
+author: Arnav
+tags:
+  - spring-rolls
+  - appetizer
+  - vegetables
+---
 # Spring Rolls
 
 A crispy and delicious appetizer filled with vegetables, popular across Asia.
