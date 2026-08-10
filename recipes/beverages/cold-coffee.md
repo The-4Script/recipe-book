@@ -1,3 +1,15 @@
+---
+title: Cold Coffee
+category: beverages
+difficulty: easy
+time: 5
+servings: 2
+author: Durvesh
+tags:
+  - coffee
+  - beverage
+  - cold
+---
 # Cold Coffee Recipe
 
 ## Description
