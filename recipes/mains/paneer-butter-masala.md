@@ -18,6 +18,14 @@ Medium
 ## Image
 ![Paneer Butter Masala](../../images/paneer-butter-masala.jpg)
 
+
+
+## Servings
+4
+
+## Image
+![Paneer Butter Masala](../../images/paneer-butter-masala.jpg)
+
 ## Ingredients
 * **2 tbsp** Butter
 * **1 tbsp** Oil
