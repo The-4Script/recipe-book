@@ -104,4 +104,3 @@ recipes/INDEX.md
 ```
 
 The generated index contains recipes grouped by category, along with their difficulty, time, and servings.
-
