@@ -1,5 +1,17 @@
 # Fudgy Chocolate Brownies
 
+## Author
+
+Kaustubh Bhoir
+
+## Description
+
+Rich and fudgy chocolate brownies with a soft, chocolatey center and a slightly crisp top.
+
+## Servings
+
+9
+
 ## Overview
 
 Here is the structured breakdown of the recipe, categorized by ingredients, steps, timing, and skill level.
