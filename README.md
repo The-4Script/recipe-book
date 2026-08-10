@@ -4,8 +4,48 @@ Welcome to the Recipe Index! Browse through our collection of recipes categorize
 
 ---
 
+
+---
 Use the [Recipe Template](docs/recipe-template.md) when creating a new recipe to keep all recipes consistent.
 
+## Navigation
+* [Appetizers](#appetizers)
+* [Main Course](#main-course)
+* [Desserts](#desserts)
+* [Beverages](#beverages)
+
+## Appetizers
+
+| Recipe | Category | Difficulty | Cooking Time |
+| :--- | :--- | :--- | :--- |
+| [Spring Rolls](./appetizers/spring-rolls.md) | Appetizer | Medium | 35 |
+
+---
+
+## Main Course
+
+| Recipe | Category | Difficulty | Cooking Time |
+| :--- | :--- | :--- | :--- |
+| [Paneer Butter Masala](./mains/paneer-butter-masala.md) | Main Course | Medium | 25 min |
+
+---
+
+## Desserts
+
+| Recipe | Category | Difficulty | Cooking Time |
+| :--- | :--- | :--- | :--- |
+| *(No recipes available yet)* | Dessert | — | — |
+
+---
+
+## Beverages
+
+| Recipe | Category | Difficulty | Cooking Time |
+| :--- | :--- | :--- | :--- |
+| [Mango Lassi](./beverages/mango-lassi.md) | Beverage | Easy | 10 min |
+| [Cold Coffee](./beverages/cold-coffee.md) | Beverage | Easy | 10 min |
+
+*(Note: Add existing recipes present in your repository under their respective category tables using relative links like `./beverages/cold-coffee.md`.)*
 ## Recipe Metadata
 
 Every recipe must begin with YAML front matter.
@@ -65,44 +105,3 @@ recipes/INDEX.md
 
 The generated index contains recipes grouped by category, along with their difficulty, time, and servings.
 
-`recipes/INDEX.md` is a generated file. Contributors should not manually maintain the recipe table.
-## Navigation
-* [Appetizers](#appetizers)
-* [Main Course](#main-course)
-* [Desserts](#desserts)
-* [Beverages](#beverages)
-
----
-
-## Appetizers
-
-| Recipe | Category | Difficulty | Cooking Time |
-| :--- | :--- | :--- | :--- |
-| [Spring Rolls](./appetizers/spring-rolls.md) | Appetizer | Medium | 35 |
-
----
-
-## Main Course
-
-| Recipe | Category | Difficulty | Cooking Time |
-| :--- | :--- | :--- | :--- |
-| [Paneer Butter Masala](./mains/paneer-butter-masala.md) | Main Course | Medium | 25 min |
-
----
-
-## Desserts
-
-| Recipe | Category | Difficulty | Cooking Time |
-| :--- | :--- | :--- | :--- |
-| *(No recipes available yet)* | Dessert | — | — |
-
----
-
-## Beverages
-
-| Recipe | Category | Difficulty | Cooking Time |
-| :--- | :--- | :--- | :--- |
-| [Mango Lassi](./beverages/mango-lassi.md) | Beverage | Easy | 10 min |
-| [Cold Coffee](./beverages/cold-coffee.md) | Beverage | Easy | 10 min |
-
-*(Note: Add existing recipes present in your repository under their respective category tables using relative links like `./beverages/cold-coffee.md`.)*

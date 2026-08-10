@@ -12,18 +12,25 @@ tags:
 ---
 # Paneer Butter Masala
 
+## Description
 A rich, creamy, and mildly spiced North Indian curry made with paneer (Indian cottage cheese), tomatoes, cashews, and butter.
 
+## Author
+Nipun Tamore
+
+## Difficulty
+Medium
+
+## Cooking Time
+40 mins
+
+## Servings
+4
+
+## Image
+![Paneer Butter Masala](../../images/paneer-butter-masala.jpg)
+
 ---
-
-| Detail | Info |
-|---|---|
-| **Difficulty** | Medium |
-| **Prep Time** | 15 mins |
-| **Cook Time** | 25 mins |
-| **Total Time** | 40 mins |
-| **Servings** | 4 |
-
 
 ## Ingredients
 
