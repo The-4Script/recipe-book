@@ -45,7 +45,7 @@ Here is the structured breakdown of the recipe, categorized by ingredients, step
 
 ## Difficulty
 
-Easy (Beginner-friendly)
+Easy
 
 ## Equipment
 
